@@ -1,0 +1,29 @@
+<html>
+<title>Web App</title>
+<body>
+<!--<h1 style="color:green; border: 1px solid black ; text-align: center">My First Web App</h1>-->
+<!--<h3>Navbar</h3>-->
+<!--<div style="s">-->
+<!--<a style="text-decoration: none; background-color: blue ; padding: 20px" href="http://127.0.0.1:8000/">Home</a>-->
+<!--<a style="text-decoration: none; background-color: blue ; padding: 20px" href="removepunc">Remove Punc</a>-->
+<!--<a style="text-decoration: none; background-color: blue ; padding: 20px" href="capatilizefirst">Capatalize First</a>-->
+<!--<a style="text-decoration: none; background-color: blue ; padding: 20px" href="newlinerremove">New lineer remove</a>-->
+<!--<a style="text-decoration: none; background-color: blue ; padding: 20px" href="spaceremove">Space Remove</a>-->
+<!--<a style="text-decoration: none; background-color: blue ; padding: 20px" href="charcount">Char Count</a>-->
+<!--    </div>-->
+<!--<h1> {{name}} is from {{place}}</h1>-->
+<h1>Write some text to see diff things</h1>
+<form action="/analyze" method="get">
+    <textarea name="text" style="width: 30%; height:200px"></textarea><br>
+    <input name="removepunc" type="checkbox" id="check"><label for="check">Check To Remove Punctuation</label><br>
+    <input name="uppertext" type="checkbox" id="check1"><label for="check1">Check To Make Uppercase</label><br>
+    <input name="newline" type="checkbox" id="check2"><label for="check2">Check To Remove New Line</label><br>
+    <input name="titlecase" type="checkbox" id="check3"><label for="check3">Check To Make Titlecase</label><br>
+    <input name="charcount" type="checkbox" id="check4"><label for="check4">Check To Count The Characters</label><br>
+    <input name="removespace" type="checkbox" id="check5"><label for="check5">Check To Remove Extra Space</label><br>
+
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
